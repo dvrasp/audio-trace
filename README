@@ -1,0 +1,10 @@
+This code trace all eip values from start to end of a programe using ptrace and single stepping.
+
+Example usage:
+
+$ make
+$ ./proto ls
+$ audacity 
+
+Then import 'log' as raw audio using 16bits and 2 channels (big endian).
+First channel contains EIP's lsb and allows to visualize local loops. Second channels shows where in the memoryspace the program is through time.
